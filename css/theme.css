@@ -49,3 +49,7 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.panel-heading span{
+    color: #fff;
+}

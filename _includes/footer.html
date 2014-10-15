@@ -9,5 +9,20 @@
 {% include disqus-counts.html %}
 {% include analytics.html %}
 
+  <!-- Search result template -->
+  <script type="text/x-template" id="search-result">
+    <div class="panel panel-primary">
+    	<div class="panel-heading">
+    		<span>##Title##<span>
+    	</div>
+    	<div class="panel-body">
+    		<p>##Date##</p>
+    		<p><a href="##Url##">Read &ldquo;##Title##&rdquo;</a></p>
+    	</div>
+    </div>
+  </script>
+
+ <!-- Search script - Must appear after template -->
+ <script src="/blog/js/gloable_search.js"></script>
 </body>
 </html>
