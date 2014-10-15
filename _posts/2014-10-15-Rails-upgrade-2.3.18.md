@@ -12,7 +12,7 @@ acts_as_paranoid发生的warning
 
 fix before
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def has_many_without_deleted(association_id, options = {}, &extension)
   with_deleted = options.delete :with_deleted
   **returning has_many_with_deleted(association_id, options, &extension)** do
@@ -27,7 +27,7 @@ end
 
 fix after
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def has_many_without_deleted(association_id, options = {}, &extension)
   with_deleted = options.delete :with_deleted
   **has_many_with_deleted(association_id, options, &extension).tap** do
@@ -43,7 +43,7 @@ end
 2 DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/mencio/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
 =======
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 config.action_controller.session = {
   :secret_key => 'aaaaa' ,
   :secret => 'tajneprzezpoufne'
@@ -56,7 +56,7 @@ config.action_controller.session = {
 
 代码发生地方是在 lib/fckeditor.rb:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 include ActionView
 module ActionView::Helpers::AssetTagHelper
   alias_method :rails_javascript_include_tag, :javascript_include_tag
@@ -80,7 +80,7 @@ end
 需要把上面的代码都要注释掉
 然后 页面的调用 fckeditor的方法也要修改
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 javascript_include_tag "fckeditor/fckeditor"
 {% endhighlight %}
 
@@ -91,7 +91,7 @@ javascript_include_tag "fckeditor/fckeditor"
 config/initializers/session_store.rb
 代码如下：
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 ActionController::Base.session = {
 :key         => '_src_session',
 :session_http_only => true,
@@ -101,7 +101,7 @@ ActionController::Base.session = {
 
 修改为如下的代码：
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 ActionController::Base.session = {
 :key         => '_src_session',
 :httponly => true,
