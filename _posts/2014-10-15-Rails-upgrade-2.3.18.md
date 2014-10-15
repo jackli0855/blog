@@ -15,7 +15,7 @@ fix before
 {% highlight ruby linenos %}
 def has_many_without_deleted(association_id, options = {}, &extension)
   with_deleted = options.delete :with_deleted
-  **returning has_many_with_deleted(association_id, options, &extension)** do
+  returning has_many_with_deleted(association_id, options, &extension) do
     if options[:through] && !with_deleted
     reflection = reflect_on_association(association_id)
     collection_reader_method(reflection, Caboose::Acts::HasManyThroughWithoutDeletedAssociation)
@@ -30,7 +30,7 @@ fix after
 {% highlight ruby linenos %}
 def has_many_without_deleted(association_id, options = {}, &extension)
   with_deleted = options.delete :with_deleted
-  **has_many_with_deleted(association_id, options, &extension).tap** do
+  has_many_with_deleted(association_id, options, &extension).tap do
     if options[:through] && !with_deleted
     reflection = reflect_on_association(association_id)
     collection_reader_method(reflection, Caboose::Acts::HasManyThroughWithoutDeletedAssociation)
@@ -39,6 +39,8 @@ def has_many_without_deleted(association_id, options = {}, &extension)
   end
 end
 {% endhighlight %}
+
+change **returning has_many_with_deleted(association_id, options, &extension) do** to **has_many_with_deleted(association_id, options, &extension).tap do** .
 
 2 DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/mencio/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
 =======
