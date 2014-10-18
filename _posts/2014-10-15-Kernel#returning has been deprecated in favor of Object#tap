@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Kernel#returning has been deprecated in favor of Object#tap"
+date: 2014-10-15 16:25:06 -0700
+comments: false
+---
+
+* Error.
+* Fix.
+
+Error Message
+============
+
+Kernel#returning has been deprecated in favor of Object#tap
+
+Fix Issue
+=======
+
+---
+
+-        returning recognition_conditions_without_subdomains do |result|
++        recognition_conditions_without_subdomains.tap do |result|
+
+---
