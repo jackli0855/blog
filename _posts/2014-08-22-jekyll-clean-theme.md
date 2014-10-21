@@ -89,3 +89,5 @@ respective owners:
 * css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
 * js/jquery.min.js - [jquery](https://jquery.com)
 * images/cc_by_88x31.png - [creative commons](https://creativecommons.org)
+
+![My helpful screenshot]({{ site.baseurl }}/images/001.jpeg)
