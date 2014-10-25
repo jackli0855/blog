@@ -14,5 +14,3 @@ $ select * from users order sort + 0;
 {% endhighlight %}
 
 **sort** of type is **varchar**, but its value is number.
-
-![My helpful screenshot]({{ site.baseurl }}/images/001.jpeg)
