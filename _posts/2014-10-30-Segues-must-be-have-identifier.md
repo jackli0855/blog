@@ -11,4 +11,6 @@ comments: false
 [waring message]({{site.baseurl}}/images/2014-10-30-Segues-must-be-have-identifier.jpg)
 
 ②decription
+============
+
 when the segue type is Modal, the identifier must be setted. if the segue is others, the identifier is not nust.
