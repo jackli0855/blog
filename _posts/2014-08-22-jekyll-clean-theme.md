@@ -91,3 +91,6 @@ respective owners:
 * images/cc_by_88x31.png - [creative commons](https://creativecommons.org)
 
 ![My helpful screenshot]({{ site.baseurl }}/images/001.jpeg)
+
+* code style
+[https://github.com/coapp/coapp.org/blob/master/src/dynamic/reference/garrett-flavored-markdown.html.md](https://github.com/coapp/coapp.org/blob/master/src/dynamic/reference/garrett-flavored-markdown.html.md)
