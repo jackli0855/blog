@@ -8,7 +8,7 @@ comments: false
 1) 在使用的文件中引入下面的文件
 ============
 
-#import <QuartzCore/QuartzCore.h>
+ #import <QuartzCore/QuartzCore.h>
 
 2）追加设定的代码
 ============
