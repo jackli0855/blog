@@ -17,3 +17,4 @@ if (ab) {
 }
 {% endhighlight %}
 
+主要是追加了 **[db lastErrorMessage]**
