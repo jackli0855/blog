@@ -91,4 +91,4 @@ Ken：雨、もうやめたよー
 
 --
 
-![止める](https://www.facebook.com/sonicjpn/photos/a.388874921391.166509.237500346391/10152934937481392/?type=1&relevant_count=1)
+![止める]({{ site.baseurl }}/images/1555335_10152934937481392_1867996411934289310_n.jpg)
