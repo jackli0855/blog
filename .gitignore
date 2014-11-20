@@ -1,3 +1,4 @@
 _cache
 _site
 .ruby-version
+.DS_Store
