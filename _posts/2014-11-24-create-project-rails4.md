@@ -14,9 +14,9 @@ cp config/database.yml config/database.example.yml
 config/application.rb
 ============
 
+{% highlight ruby linenos %}
 require File.expand_path('../boot', __FILE__)
 
-{% highlight ruby linenos %}
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
