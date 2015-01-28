@@ -8,9 +8,8 @@ comments: false
 开发环境：
 ============
 
-```xml
- android studio 
-```xml
+	android studio 
+
 
 如果生成多国语言对应的文件夹（如下图）
 ============

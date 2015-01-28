@@ -8,16 +8,16 @@ comments: false
 In ios7 , UITableViewWrapperView is the superview of UITableViewCell. Also UITableView is the superview of UITableViewWrapperView. 
 So for ios7 the solution is :
 
-```objective-c
+```
 UITableView *tableView = (UITableView *)cell.superview.superview
-```objective-c
+```
 
 cell is object of UITableViewCell .
 
 If ios6, the solution is :
 
-```objective-c
+```
 UITableView *tableView = (UITableView *)cell.superview
-```objective-c
+```
 
 
