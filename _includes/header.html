@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <!-- Search script - Must appear after template -->
+    <script src="{{ site.baseurl }}/js/gloable_search.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/css/syntax.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,19 +25,13 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a href="{{ site.baseurl }}/"><img src={{ site.baseurl }}/images/wanli.jpg class="img-circle" style="width:60px;" /></a>
+                <a class="navbar-brand" href="{{ site.baseurl }}/"><img src={{ site.baseurl }}/images/wanli.jpg class="img-circle" style="width:60px;" /></a>
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                    {% if false %}
-                      <li class="active visible-xs-block"><a href="{{ site.baseurl }}/links.html">Links</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
-                    {% endif %}
                     <li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
                 </ul>
-
                 <form class="navbar-form navbar-left" role="search" data-search-form>
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search" id="gloableSearchFormInput" name="gloableSearchFormInput" data-search-input>
