@@ -20,3 +20,4 @@ If ios6, the solution is :
 UITableView *tableView = (UITableView *)cell.superview
 ```objective-c
 
+
