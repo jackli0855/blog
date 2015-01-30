@@ -41,3 +41,4 @@ lunr_search:
   excludes: [rss.xml, atom.xml]
   stopwords: "stopwords.txt"
   min_length: 3
+  exclude_from_search: true
