@@ -34,3 +34,5 @@ redcarpet:
 
 exclude: ['README.md', 'LICENSE']
 url: http://localhost:4000/
+
+# gems: ['jekyll-lunr-js-search']
