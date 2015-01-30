@@ -9,9 +9,11 @@
           <div class="article">
             <div class="well" >
             <!-- Search results placeholder -->
+            {% if false %}
               <div class="alert alert-success" role="alert" data-search-found>
                 <strong data-search-found-count></strong> result(s) found for &ldquo;<strong data-search-found-term></strong>&rdquo;.
               </div>
+            {% endif %}
               <div data-search-results>
                   <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
                   {% if site.comments == true and page.comments == true and site.disqus != '' %}
