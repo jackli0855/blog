@@ -42,3 +42,5 @@ lunr_search:
   stopwords: "stopwords.txt"
   min_length: 3
   exclude_from_search: true
+
+searchindex: yes
