@@ -12,11 +12,11 @@ MyBlog
 ============
 
 * [Jekyll Clean](https://github.com/scotte/jekyll-clean)
-* github 设定
+* [github 设定](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
 
 
 外一篇
 ============
 
-一开始的时候我使用的是csdn的blog系统，但是后来到了国外之后，访问的时候速度很慢。
-改用github之后，国内外访问都不存在问题。
+国内的blog系统（csdn的blog)在国外访问的时候速度非常慢。如果你是国际化的开发人员，
+改用github是一个不错的主意，全世界任何地方访问都没有速度的问题。 而且也是免费的哦！！
