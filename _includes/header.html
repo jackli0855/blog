@@ -12,11 +12,6 @@
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
 
-    <script src="{{ site.baseurl }}/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="{{ site.baseurl }}/js/mustache.js" type="text/javascript" charset="utf-8"></script>
-    <script src="{{ site.baseurl }}/js/date.format.js" type="text/javascript" charset="utf-8"></script>
-    <script src="{{ site.baseurl }}/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="{{ site.baseurl }}/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
     {% include analytics.html %}
 </head>
 
@@ -38,22 +33,8 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
                     <li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/archive.html">Search</a></li>
                 </ul>
-                {% if false %}
-                <form class="navbar-form navbar-left" role="search" data-search-form>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search" id="gloableSearchFormInput" name="gloableSearchFormInput" data-search-input>
-                  </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                
-                
-                <span id="search">
-                  <form action="{{ site.baseurl }}/search" method="get">
-                    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-                  </form>
-                </span>
-                {% endif %}
               </div>
         </div>
     </div>

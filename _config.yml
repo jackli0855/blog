@@ -16,7 +16,7 @@ baseurl: /blog
 github: 'scotte/jekyll-clean'
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: '55448364'
+gaaccount: ''
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
@@ -25,7 +25,7 @@ disqus: ''
 comments: true
 
 permalink: /:year/:month/:title
-paginate: 10
+paginate: 3
 
 highlighter: pygments
 markdown: redcarpet
@@ -33,14 +33,3 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 exclude: ['README.md', 'LICENSE']
-url: http://localhost:4000/
-
-gems: ['jekyll-lunr-js-search']
-
-lunr_search:
-  excludes: [rss.xml, atom.xml]
-  stopwords: "stopwords.txt"
-  min_length: 3
-  exclude_from_search: true
-
-searchindex: yes
