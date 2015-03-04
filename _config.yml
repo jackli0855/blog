@@ -34,4 +34,8 @@ redcarpet:
 
 exclude: ['README.md', 'LICENSE']
 
-gems: ['jekyll-lunr-js-search']
+# gems: ['jekyll-lunr-js-search']
+
+# lunr_search:
+#   stopwords: "stopwords.txt"
+#   min_length: 3
