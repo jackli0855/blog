@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "我的iPhone4升级ios7黑屏了 开不开机怎么办?"
+title: "android app 多国语言对应"
 date: 2015-01-14 18:00
 comments: false
 ---
