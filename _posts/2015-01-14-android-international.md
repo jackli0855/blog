@@ -14,8 +14,16 @@ comments: false
 如果生成多国语言对应的文件夹（如下图）
 ============
 
-
 ![android studio]({{ site.baseurl }}/images/20150116_173729.png)
+
+生成相应语言文件夹
+
+![language]({{ site.baseurl }}/images/20150331_115601.png)
+
+变换项目文件的查看方式就可以看到生成的对应语言的文件夹
+
+![project type]({{ site.baseurl }}/images/20150331_120034.png)
+
 测试
 ============
 
