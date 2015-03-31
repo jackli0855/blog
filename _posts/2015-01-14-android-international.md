@@ -14,8 +14,8 @@ comments: false
 如果生成多国语言对应的文件夹（如下图）
 ============
 
-({{ site.baseurl }}/images/20150116_173729.png)
 
+![android studio]({{ site.baseurl }}/images/20150116_173729.png)
 测试
 ============
 
