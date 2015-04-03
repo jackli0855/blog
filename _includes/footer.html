@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;{{ site.time | date: '%Y' }} {{ site.name }}. </p>
+        </div>
+    </div>
+</div>
+
+{% include disqus-counts.html %}
+
+
+  <!-- Search result template -->
+  <script type="text/x-template" id="search-result">
+    <div class="panel panel-primary">
+    	<div class="panel-heading">
+    		<span>##Title##<span>
+    	</div>
+    	<div class="panel-body">
+    		<p>##Date##</p>
+    		<p><a href="##Url##">Read &ldquo;##Title##&rdquo;</a></p>
+    	</div>
+    </div>
+  </script>
+
+</body>
+</html>

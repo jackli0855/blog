@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Jekyll Clean Theme"
+date: 2014-08-22 16:25:06 -0700
+comments: false
+---
+
+Offline Documentation
+============
+
+It is often useful to have an offline version of the documents. There are several ways to create the local versions. One way is using Rails. Rails provides commands to generate the docs once it is installed. However, as Rails upgrades, many commands that worked in lower versions (e.g., 2.x) of Rails no longer do in the newer version (3.x). Another way is to mirror the online docs directly using tools like wget. This process takes longer, but does not need to always search for the correct Rails commands. 
+
+Rails-specific
+-- Rails complete API: to mirror the Rails API, create a folder for holding the API, and then type:
+wget -r -k -p -nH http://api.rubyonrails.org/, where 
+-r: recursive;
+-k: convert links to local pointers
+-p: download required images
+-nH: no host prefix. If not specified, all downloaded docs will be put under a folder named after the hotel name
+
